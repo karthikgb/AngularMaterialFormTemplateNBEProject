@@ -9,8 +9,11 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "electron": "ng build && electron .",
-    "electron-aot": "ng build --prod && electron ."
+    "postinstall": "ng build --aot -prod"
+  },
+  "engines": {
+    "node": "6.11.0",
+    "npm": "3.10.10"
   },
   "private": true,
   "dependencies": {
