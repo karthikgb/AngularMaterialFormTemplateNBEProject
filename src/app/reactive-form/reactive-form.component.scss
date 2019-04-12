@@ -1,0 +1,76 @@
+.mainform-body {
+    padding: 12px;
+}
+
+.rowCol {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+label.col-form-label {
+    position: relative;
+    margin-bottom: 0;
+    font-size: inherit;
+    line-height: 1.5;
+    flex: 0 0 27.666667%;
+    max-width: 31.666667%;
+    padding: 16px 5px 0 0;
+    text-align: right;
+}
+
+.tempImageBack {
+    position: absolute;
+    height: 96%;
+}
+
+.imgcourse {
+    background-position: inherit;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    opacity: .40;
+    height: 89%;
+
+}
+
+.col-form-content {
+    flex: 0 0 50.333333%;
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.mat-form-field {
+    width: 100%
+}
+
+.left {
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+
+
+.right {
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+}
+
+
+.example-card {
+    height: 115px;
+    width: 114px;
+    border-radius: 14px;
+}
+
+.col-form-content.avtar {
+    padding-left: 176px;
+    padding-bottom: 18px;
+}

@@ -1,0 +1,30 @@
+.mainform-body {
+    padding: 12px;
+    height: 91%;
+}
+
+mat-card.bdycard.mat-card {
+    height: 100%;
+}
+
+img.imgcourse {
+    position: absolute;
+    left: 305px;
+    height: 97%;
+}
+
+img.imgcourse2 {
+    position: absolute;
+    z-index: 2;
+    bottom: 0;
+    right: 0;
+    height: 210px;
+    transform: scale(-1, 1)
+}
+
+img.imgcourse1 {
+    position: absolute;
+    z-index: 2;
+    bottom: 0;
+    height: 210px;
+}
